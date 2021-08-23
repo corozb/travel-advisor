@@ -44,7 +44,7 @@ function App() {
         setIsLoading(false)
       })
     }
-  }, [bounds, type])
+  }, [bounds, type]) // eslint-disable-line
 
   const onLoad = (autoC) => setAutocomplete(autoC)
 
